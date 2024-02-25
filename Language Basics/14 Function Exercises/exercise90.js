@@ -4,14 +4,19 @@
  * together and then returns the result.
  */
 
-let addTwoNumbers = function (number1, number2) {
-  addTwoNumbers = number1 + number2;
-  return addTwoNumbers;
+const addTwoNumbers = function (number1, number2) {
+  let result = number1 + number2;
+  return result;
 }
 
-let firstNumber = 125,
+const firstNumber = 125,
   secondNumber = 2345;
 
 
+//console.log(typeof addTwoNumbers);
+
 console.log(addTwoNumbers(firstNumber, secondNumber));
-console.log(addTwoNumbers(2, 3));
+
+//console.log(typeof addTwoNumbers);
+
+console.log(addTwoNumbers(25, 35));
